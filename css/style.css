@@ -9,8 +9,15 @@ html {
   font-family: 'Lato', sans-serif;
 }
 
+body {
+  padding: 0 15px;
+  background: #dedede;
+}
+
 #navbar {
   position: fixed;
+  top: 0;
+  left: 0;
 }
 
 #hamburger-button {
@@ -30,3 +37,22 @@ html {
   display: none;
 }
 
+#headline {
+  margin-top: 75px;
+  color: #ec5242;
+}
+
+#headline small:first-child {
+  font-size: 1.2rem;
+}
+
+#headline p {
+  border: 3px solid #fff;
+  padding: 15px;
+}
+
+#headline p, #headline .desc {
+  color: #434342;
+  margin: 15px 0;
+  line-height: 1.5rem;
+}
