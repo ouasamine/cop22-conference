@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  font-size: 1rem;
 }
 
 * {
@@ -10,32 +11,41 @@ html {
 }
 
 body {
-  background: url("../img/menara.jpeg") no-repeat fixed;
+  background: url("../img/menara.jpeg") no-repeat;
 }
 
-#container {
-  padding: 20px 15px;
-  background: #d3d3d3e8;
-  
+.h-line {
+  height: 1.9px;
+  width: 50px;
+  background: #ec5242;
+  margin: 10px 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 25px 30px;
+  background: #ec5242;
+  color: #dedede;
+  width: fit-content;
+  align-self: center;
+  margin-top: 30px;
 }
 
 #navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
+  background: #efefefe8;
+  padding: 15px;
 }
 
 #hamburger-button {
   cursor: pointer;
-  margin-left: 4vw;
-  margin-top: 15px;
+  
 }
 
 #hamburger-button div {
   height: 6px;
   width: 30px;
   background-color: #434342;
-  margin: 4px 0;
+  margin-bottom: 4px;
 }
 
 #mobile-menu {
@@ -43,8 +53,9 @@ body {
 }
 
 #headline {
-  margin-top: 75px;
   color: #ec5242;
+  padding: 90px 15px 50px 15px;
+  background: #efefefe8;
 }
 
 #headline small:first-child {
@@ -60,4 +71,39 @@ body {
   color: #434342;
   margin: 15px 0;
   line-height: 1.5rem;
+}
+
+#program,
+#speakers {
+  background: #272a31;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 35px 15px;
+  color: #dedede;
+}
+
+#program > header,
+#speakers > header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#program > .card {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  background: #efefef18;
+  padding: 20px 20px;
+  margin: 5px 0;
+}
+
+#program > .card > h2 {
+  color: #ec5242;
+}
+
+#speakers {
+  background: #dedede;
+  color: #0f0f0f;
 }
