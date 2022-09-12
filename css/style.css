@@ -10,8 +10,13 @@ html {
 }
 
 body {
-  padding: 0 15px;
-  background: #dedede;
+  background: url("../img/menara.jpeg") no-repeat fixed;
+}
+
+#container {
+  padding: 20px 15px;
+  background: #d3d3d3e8;
+  
 }
 
 #navbar {
