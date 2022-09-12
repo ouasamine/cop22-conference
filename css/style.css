@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+#navbar {
+  position: fixed;
+}
+
+#hamburger-button {
+  cursor: pointer;
+  margin-left: 4vw;
+  margin-top: 15px;
+}
+
+#hamburger-button div {
+  height: 6px;
+  width: 30px;
+  background-color: #434342;
+  margin: 4px 0;
+}
+
+#mobile-menu {
+  display: none;
+}
+
