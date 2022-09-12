@@ -2,9 +2,9 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# cop22-conference
+# Cop22 Conference
 
-> Website Containing All Informations About The Global Climate Conference Cop22 Held in Marrakech in 2016.
+> Website Containing All Informations About The Global Climate Conference Cop22 Held in Marrakech 2016.
 
 
 ## Built With
@@ -30,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
   - To clone and run this project on your local machine please follow the commands (Windows Command Line):
   ```
   cd PATH 
-  git clone _https://github.com/ouasamine/cop22-conference.git _
+  git clone _https://github.com/ouasamine/cop22-conference.git
   cd cop22-conference
   index.html 
   ```
