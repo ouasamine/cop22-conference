@@ -4,17 +4,17 @@
 
 # Cop22 Conference
 
-> Website Containing All Informations About The Global Climate Conference Cop22 Held in Marrakech 2016.
+> A Website Containing Some Informations About The Global Climate Conference COP22 Held in Marrakech 2016.
 
 
 ## Built With
 
-- Html5/Css3
+- Html 5/Css 3
 - Javascript
 
 ## Live Demo
 
-Check [the live version](https://ouasamine.github.io/live) of this project.
+Check [the live version](https://ouasamine.github.io/cop22-conference/) of this project.
 
 ## Getting Started
 
@@ -58,6 +58,10 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse :heart:
+
+## Credits
+
+This project is based on a design created by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## 📝 License
 
