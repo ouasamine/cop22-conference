@@ -112,7 +112,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 55px 15px;
+  padding: 45px 15px;
   color: #dedede;
 }
 
@@ -260,7 +260,7 @@ footer img {
   }
 
   #headline, #program{
-    padding: 75px 10%;
+    padding: 45px 10%;
   }
 
   #headline p {
