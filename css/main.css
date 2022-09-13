@@ -14,6 +14,22 @@ body {
   background: url("../img/menara.jpeg") no-repeat;
 }
 
+h2, h3 {
+  color: #1f1f1f;
+}
+
+a {
+  color: #0f0f0f;
+  font-weight: 600;
+  text-decoration: underline #bebebe 2px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .h-line {
   height: 1.9px;
   width: 50px;
@@ -56,38 +72,48 @@ body {
   color: #ec5242;
   padding: 90px 15px 50px 15px;
   background: #efefefe8;
+  align-items: flex-start;
 }
 
 #headline small:first-child {
   font-size: 1.2rem;
 }
 
-#headline p {
+#headline > .desc {
   border: 3px solid #fff;
   padding: 15px;
 }
 
-#headline p, #headline .desc {
+#headline > .join-us {
+  text-align: center;
+}
+
+#headline p, #headline .date {
   color: #434342;
   margin: 15px 0;
   line-height: 1.5rem;
 }
 
 #program,
-#speakers {
+#speakers,
+#logo,
+#recent-cops,
+#partners {
   background: #272a31;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
   padding: 35px 15px;
   color: #dedede;
 }
 
-#program > header,
-#speakers > header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#program,
+#speakers {
+  align-items: stretch;
+}
+
+#program > header > h2 {
+  color: #dedede;
 }
 
 #program > .program-card {
@@ -105,14 +131,11 @@ body {
 
 #program > .program-card > h3 {
   flex: 30vw;
+  color: #ec5242;
 }
 
 #program > .program-card > p {
   flex: 60vw;
-}
-
-#program > .program-card > h3 {
-  color: #ec5242;
 }
 
 #speakers {
@@ -140,4 +163,39 @@ body {
 .speaker > .text > .h-line {
   background: #dedede;
   width: 25px;
+}
+
+#partners h2 {
+  color: #fff;
+}
+
+#partners > .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#partners img {
+  max-width: 150px;
+  max-height: 100px;
+  margin: 5px 2px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 40px;
+  color: #434342;
+  font-style: italic;
+}
+
+footer img {
+  max-width: 100px;
+  margin-right: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  
 }
