@@ -259,7 +259,7 @@ footer img {
     padding: 8px;
   }
 
-  #headline {
+  #headline, #program{
     padding: 75px 10%;
   }
 
@@ -278,7 +278,7 @@ footer img {
   #program .program-card {
     flex-direction: column;
     margin: 0 5px;
-    width: 220px;
+    width: 200px;
     gap: initial;
     margin: 4px 5px;
     justify-content: flex-start;
