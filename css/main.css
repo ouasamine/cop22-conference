@@ -279,8 +279,9 @@ footer img {
     flex-direction: column;
     margin: 0 5px;
     width: 200px;
+    min-height: 250px;
     gap: initial;
-    margin: 4px 5px;
+    margin: 4px 2px;
     justify-content: flex-start;
     text-align: center;
   }
