@@ -13,17 +13,28 @@
   </head>
   <body>
     <nav id="navbar">
-      <div id="hamburger-button">
+      <a id="hamburger-button" class="hide-lrg">
         <div></div>
         <div></div>
         <div></div>
-      </div>
+      </a>
       <div id="mobile-menu">
         <a href="#">Home</a>
         <a href="#">Program</a>
         <a href="#">Sponsor</a>
         <a href="#">About</a>
       </div>
+      <a id="logo" class="hide-sml" href="" target="_self">
+        <img alt="COP22 Logo" src="./img/cop22-logo-243x243.png"> 
+        <span>COP22 Marrakech</span>
+      </a>
+      <ul class="hide-sml">
+        <li><a href="./about.html">About</a></li>
+        <li><a href="">Program</a></li>
+        <li><a href="">Join</a></li>
+        <li><a href="">Sponsor</a></li>
+      </ul>
+      <a id="logo-right" class="hide-sml" href="">COP22 Campain</a>
     </nav>
     <header id="headline">
       <small>"Welcome To Marrakech!"</small>
@@ -36,7 +47,7 @@
         <a href="https://www.cop22.ma" target="_blank">cop22.ma</a>
       </p>
     </header>
-    <section id="logo">
+    <section id="logo-display">
       <header>
         <h2>COP22 Global Climate Conference Logo</h2>
         <div class="h-line"></div>
@@ -53,24 +64,26 @@
         <div class="h-line"></div>
       </header>
       <p>Take a look at the last two global climate conferences which took place in Lima and Paris</p>
-      <a class="recent-cop" target="_blank" href="https://unfccc.int/process-and-meetings/conferences/past-conferences/paris-climate-change-conference-november-2015/cop-21">
-        <img src="./img/cop21-700x300.jpg">
-        <div>
+      <div class="container">
+        <a class="recent-cop" target="_blank" href="https://unfccc.int/process-and-meetings/conferences/past-conferences/paris-climate-change-conference-november-2015/cop-21">
+          <img src="./img/cop21-700x300.jpg">
           <div>
-            <h2>2015</h2>
-            <p>COP21 conference in Paris</p>
+            <div>
+              <h2>2015</h2>
+              <p>COP21 conference in Paris</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a class="recent-cop" target="_blank" href="https://unfccc.int/process-and-meetings/conferences/past-conferences/lima-climate-change-conference-december-2014/cop-20">
-        <img src="./img/cop20-1200x650.jpg">
-        <div>
+        </a>
+        <a class="recent-cop" target="_blank" href="https://unfccc.int/process-and-meetings/conferences/past-conferences/lima-climate-change-conference-december-2014/cop-20">
+          <img src="./img/cop20-1200x650.jpg">
           <div>
-            <h2>2014</h2>
-            <p>COP20 conference in Lima</p>
+            <div>
+              <h2>2014</h2>
+              <p>COP20 conference in Lima</p>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
     </section>
     <section id="partners">
       <header>

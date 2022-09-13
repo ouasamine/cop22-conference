@@ -3,29 +3,33 @@
   text-align: center;
 }
 
-#headline > h1 {
+#headline  h1 {
   margin-top: 20px;
 }
 
-#headline > .about {
+#headline .about {
   background: #fff;
   border: 2px solid #cecece;
   text-align: center;
   padding: 25px;
 }
 
-#logo,
+#headline .join-us {
+  text-align: center;
+}
+
+#logo-display,
 #recent-cops {
   background: #fff;
   color: #0f0f0f;
 }
 
-#logo > p {
+#logo-display > p {
   text-align: center;
   margin: 20px 0;
 }
 
-#logo > img {
+#logo-display > img {
   border: 2px solid #cecece;
   padding: 10px;
   max-height: 500px;
@@ -37,7 +41,8 @@
   text-align: center;
 }
 
-#recent-cops > a {
+#recent-cops > .container > a {
+  display: block;
   max-width: 400px;
   max-height: 250px;
 }
@@ -48,7 +53,7 @@
   margin: 20px 0;
 }
 
-.recent-cop  img {
+.recent-cop img {
   height: 100%;
   width: 100%;
 }
@@ -75,4 +80,16 @@
   color: #fff;
 }
 
+@media only screen and (min-width: 768px) {
+  #headline p {
+    max-width: 1000px;
+  }
 
+  #recent-cops > .container {
+    display: flex;
+  }
+  
+  #recent-cops .recent-cop {
+    margin: 0 15px;
+  }
+}

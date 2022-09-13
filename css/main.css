@@ -12,10 +12,11 @@ html {
 
 body {
   background: url("../img/menara.jpeg") no-repeat;
+  background-size: 100% auto;
 }
 
 h2, h3 {
-  color: #1f1f1f;
+  color: #272a31;
 }
 
 a {
@@ -28,6 +29,10 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.hide-sml {
+  display: none !important;
 }
 
 .h-line {
@@ -54,7 +59,6 @@ header {
 
 #hamburger-button {
   cursor: pointer;
-  
 }
 
 #hamburger-button div {
@@ -75,36 +79,46 @@ header {
   align-items: flex-start;
 }
 
+#headline h1 {
+  font-size: 4rem;
+}
+
 #headline small:first-child {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 #headline > .desc {
-  border: 3px solid #fff;
+  border: 2px solid #fefefe;
   padding: 15px;
 }
 
-#headline > .join-us {
-  text-align: center;
+#headline h2 {
+  font-weight: 900;
+  color: #4f4f4f;
 }
 
 #headline p, #headline .date {
-  color: #434342;
+  color: #4f4f4f;
   margin: 15px 0;
   line-height: 1.5rem;
 }
 
 #program,
 #speakers,
-#logo,
+#logo-display,
 #recent-cops,
 #partners {
   background: #272a31;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 35px 15px;
+  padding: 55px 15px;
   color: #dedede;
+}
+
+#recent-cops {
+  border-top: 2px solid #dedede;
+  border-bottom: 2px solid #dedede;
 }
 
 #program,
@@ -112,11 +126,11 @@ header {
   align-items: stretch;
 }
 
-#program > header > h2 {
+#program  header  h2 {
   color: #dedede;
 }
 
-#program > .program-card {
+#program  .program-card {
   display: flex;
   gap: 30px;
   align-items: center;
@@ -125,16 +139,16 @@ header {
   margin: 5px 0;
 }
 
-#program > .program-card > span {
+#program  .program-card  span {
   flex: 10vw;
 }
 
-#program > .program-card > h3 {
+#program  .program-card  h3 {
   flex: 30vw;
   color: #ec5242;
 }
 
-#program > .program-card > p {
+#program  .program-card  p {
   flex: 60vw;
 }
 
@@ -179,7 +193,7 @@ header {
 #partners img {
   max-width: 150px;
   max-height: 100px;
-  margin: 5px 2px;
+  margin: 5px 10px;
 }
 
 footer {
@@ -197,5 +211,104 @@ footer img {
 }
 
 @media only screen and (min-width: 768px) {
+  .hide-lrg {
+    display: none !important;
+  }
+
+  .hide-sml {
+    display: initial !important;
+  }
+
+  #navbar {
+    display: flex;
+    padding: 15px 10%;
+    background: #fff;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #navbar img {
+    max-width: 40px;
+  }
+
+  #navbar  ul {
+    list-style: none;
+    display: flex !important;
+  }
   
+  #navbar  ul  li {
+    margin: 0 25px;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    color: #434342;
+  }
+
+  #logo {
+    color: #272a31 !important;
+    font-size: 1.5rem;
+    display: flex !important;
+    align-items: center;
+    gap: 15px;
+  }
+
+  #logo-right {
+    border: 3px solid #ec5242;
+    color: #ec5242 !important;
+    padding: 8px;
+  }
+
+  #headline {
+    padding: 75px 10%;
+  }
+
+  #headline p {
+    max-width: 700px;
+    margin: 40px 0;
+  }
+
+  #program > div {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #program .program-card {
+    flex-direction: column;
+    margin: 0 5px;
+    width: 220px;
+    gap: initial;
+    margin: 4px 5px;
+    justify-content: flex-start;
+    text-align: center;
+  }
+
+  #program .program-card span{
+    flex: initial;
+    height: 50px;
+  }
+
+  #program .program-card h3 {
+    flex: initial;
+    height: 50px;
+  }
+
+  #program .program-card p {
+    flex: auto;
+  }
+
+  #speakers > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .speaker {
+    width: calc(45% - 25px);
+  }
 }
