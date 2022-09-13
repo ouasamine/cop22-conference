@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Cop22 Conference
+# COP22 Conference
 
 > A Website Containing Some Informations About The Global Climate Conference COP22 Held in Marrakech 2016.
 
