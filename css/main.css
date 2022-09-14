@@ -136,7 +136,7 @@ header {
   color: #ff000062;
   background-image: url("../img/blood-wood-360x240.jpg");
   background-repeat: no-repeat;
-  background-clip: text;
+  -webkit-background-clip: text;
   background-size: 100% 100%;
 }
 
