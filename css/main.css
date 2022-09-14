@@ -132,6 +132,11 @@ header {
   text-decoration: underline;
 }
 
+#headline h1 {
+  color: #ff000062;
+  background: url("../img/blood-wood-360x240.jpg") 100%/100% no-repeat text;
+}
+
 #headline {
   color: #ec5242;
   padding: 40px 15px 50px 15px;
