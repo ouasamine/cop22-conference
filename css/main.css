@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 html {
   scroll-behavior: smooth;
   font-size: 1rem;
@@ -19,7 +20,8 @@ h2 {
   text-align: center;
 }
 
-h2, h3 {
+h2,
+h3 {
   color: #272a31;
 }
 
@@ -151,7 +153,8 @@ header {
   color: #4f4f4f;
 }
 
-#headline p, #headline .date {
+#headline p,
+#headline .date {
   color: #4f4f4f;
   margin: 15px 0;
   line-height: 1.5rem;
@@ -180,11 +183,11 @@ header {
   align-items: stretch;
 }
 
-#program  header  h2 {
+#program header h2 {
   color: #dedede;
 }
 
-#program  .program-card {
+#program .program-card {
   display: flex;
   gap: 30px;
   align-items: center;
@@ -193,11 +196,11 @@ header {
   margin: 5px 0;
 }
 
-#program  .program-card  span {
+#program .program-card span {
   min-width: 40px;
 }
 
-#program  .program-card  h3 {
+#program .program-card h3 {
   min-width: 90px;
   color: #ec5242;
 }
@@ -281,15 +284,15 @@ footer img {
     max-width: 40px;
   }
 
-  #navbar  ul {
+  #navbar ul {
     list-style: none;
     display: flex !important;
   }
-  
-  #navbar  ul  li {
+
+  #navbar ul li {
     margin: 0 25px;
   }
-  
+
   #navbar a {
     text-decoration: none;
     color: #434342;
@@ -327,7 +330,7 @@ footer img {
     margin: 40px 0;
   }
 
-  #program{
+  #program {
     padding: 45px 10%;
   }
 
@@ -340,7 +343,6 @@ footer img {
 
   #program .program-card {
     flex-direction: column;
-    margin: 0 5px;
     width: 200px;
     min-height: 260px;
     gap: initial;

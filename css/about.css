@@ -1,9 +1,10 @@
+/* stylelint-disable no-descending-specificity */
 #headline {
   align-items: center;
   text-align: center;
 }
 
-#headline  h1 {
+#headline h1 {
   margin-top: 20px;
 }
 
@@ -96,7 +97,7 @@
   #recent-cops > .container {
     display: flex;
   }
-  
+
   #recent-cops .recent-cop {
     margin: 0 15px;
   }
