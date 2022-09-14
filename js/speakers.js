@@ -17,7 +17,43 @@ const speaker_3 = {
   img: "./img/erik-solheim-900x600.jpg"
 };
 
-const speakers = [speaker_1,speaker_2,speaker_3];
+const speaker_4 = {
+  name: "Mafalda Duarte",
+  position: "CEO of Climate Investment Funds (CIF)",
+  desc: "Master’s in Economic Policy Management, Development Economics and International Development, Columbia University.",
+  img: "./img/mafalda-duarte-900x600.jpg"
+};
+
+const speaker_5 = {
+  name: "Bea Perez",
+  position: "Head of Global Office of Sustainability",
+  desc: "Bea holds a Bachelor of Science degree in Marketing from the University of Maryland.",
+  img: "./img/bea-perez-900x600.jpg"
+};
+
+const speaker_6 = {
+  name: "Lisa Walker",
+  position: "CEO of Ecosphere +",
+  desc: " Lisa worked in the oil and gas sector for >17 years and has been closely involved in all aspects of climate change strategy development & implementation.",
+  img: "./img/lisa-walker-900x600.jpg"
+};
+
+const speaker_7 = {
+  name: "Lisa Davis",
+  position: "Siemens Oil & Gas Responsible",
+  desc: "Bachelor of Science (B.S.), Chemical Engineering, University of California.",
+  img: "./img/lisa-davis-900x600.jpg"
+};
+
+const speaker_8 = {
+  name: "M. Mustapha Bakkoury",
+  position: "Chairman of the Management Board of Masen and President of the Casablanca-Settat Region",
+  desc: "Master’s degree in banking and finance, Ecole des Ponts et Chaussées, Paris.",
+  img: "./img/mustapha-bakkoury-900x600.png"
+};
+
+const speakers = [speaker_1,speaker_2,speaker_3,speaker_4,speaker_5,speaker_6,
+  speaker_7,speaker_8];
 const speakersContainer = document.querySelector("#speakers > div");
 
 speakers.forEach((speaker) => {
