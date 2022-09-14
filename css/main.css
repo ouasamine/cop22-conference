@@ -134,7 +134,9 @@ header {
 
 #headline h1 {
   color: #ff000062;
-  background: url("../img/blood-wood-360x240.jpg") no-repeat text;
+  background-image: url("../img/blood-wood-360x240.jpg");
+  background-repeat: no-repeat;
+  background-clip: text;
   background-size: 100% 100%;
 }
 
