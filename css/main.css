@@ -352,7 +352,7 @@ footer img {
 
   #program .program-card:hover {
     border: 2px solid #dedede;
-    cursor: pointer;
+    cursor: default;
   }
 
   #program .program-card span,

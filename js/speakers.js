@@ -47,7 +47,7 @@ const speaker_7 = {
 
 const speaker_8 = {
   name: "M. Mustapha Bakkoury",
-  position: "Chairman of the Management Board of Masen and President of the Casablanca-Settat Region",
+  position: "Chairman of the Management Board of Masen and President of the Casablanca-Settat Region, Morocco",
   desc: "Master’s degree in banking and finance, Ecole des Ponts et Chaussées, Paris.",
   img: "./img/mustapha-bakkoury-900x600.png"
 };
