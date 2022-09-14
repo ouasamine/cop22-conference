@@ -15,6 +15,10 @@ body {
   background-size: 100% auto;
 }
 
+h2 {
+  text-align: center;
+}
+
 h2, h3 {
   color: #272a31;
 }
@@ -29,6 +33,10 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.hide-all {
+  display: none !important;
 }
 
 .hide-sml {
@@ -52,6 +60,10 @@ header {
   margin-top: 30px;
 }
 
+.button:hover {
+  background: #ef5f4f;
+}
+
 #navbar {
   background: #efefefe8;
   padding: 15px;
@@ -59,6 +71,7 @@ header {
 
 #hamburger-button {
   cursor: pointer;
+  display: inline-block;
 }
 
 #hamburger-button div {
@@ -66,21 +79,62 @@ header {
   width: 30px;
   background-color: #434342;
   margin-bottom: 4px;
+  transition: all 0.1s;
+}
+
+.close-button {
+  position: fixed;
+  z-index: 100;
+}
+
+.close-button div:nth-child(1) {
+  transform: rotate(50deg) translate(7px, 6px);
+  transition: transform 0.2s;
+}
+
+.close-button div:nth-child(3) {
+  transform: rotate(-50deg) translate(0, -1px);
+  transition: transform 0.2s;
+}
+
+.close-button div:nth-child(2) {
+  display: none;
 }
 
 #mobile-menu {
-  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #dedede;
+}
+
+#mobile-menu ul {
+  margin: 70px 0 0 40px;
+  list-style: none;
+}
+
+#mobile-menu ul li {
+  margin: 30px 0;
+}
+
+#mobile-menu ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #272a31;
+}
+
+#mobile-menu ul li a:hover {
+  color: #6f6f6f;
+  text-decoration: underline;
 }
 
 #headline {
   color: #ec5242;
-  padding: 90px 15px 50px 15px;
+  padding: 40px 15px 50px 15px;
   background: #efefefe8;
   align-items: flex-start;
-}
-
-#headline h1 {
-  font-size: 4rem;
 }
 
 #headline small:first-child {
@@ -140,16 +194,12 @@ header {
 }
 
 #program  .program-card  span {
-  flex: 10vw;
+  min-width: 40px;
 }
 
 #program  .program-card  h3 {
-  flex: 30vw;
+  min-width: 90px;
   color: #ec5242;
-}
-
-#program  .program-card  p {
-  flex: 60vw;
 }
 
 #speakers {
@@ -243,6 +293,11 @@ footer img {
   #navbar a {
     text-decoration: none;
     color: #434342;
+    transition: color 0.1s;
+  }
+
+  #navbar a:hover {
+    color: #ec5242;
   }
 
   #logo {
@@ -259,13 +314,21 @@ footer img {
     padding: 8px;
   }
 
-  #headline, #program{
-    padding: 45px 10%;
+  #headline {
+    padding: 120px 10%;
+  }
+
+  #headline h1 {
+    font-size: 4rem;
   }
 
   #headline p {
     max-width: 700px;
     margin: 40px 0;
+  }
+
+  #program{
+    padding: 45px 10%;
   }
 
   #program > div {
@@ -279,25 +342,37 @@ footer img {
     flex-direction: column;
     margin: 0 5px;
     width: 200px;
-    min-height: 250px;
+    min-height: 260px;
     gap: initial;
     margin: 4px 2px;
     justify-content: flex-start;
     text-align: center;
+    border: 2px solid #dedede00;
   }
 
-  #program .program-card span{
-    flex: initial;
-    height: 50px;
+  #program .program-card:hover {
+    border: 2px solid #dedede;
+    cursor: pointer;
   }
 
+  #program .program-card span,
   #program .program-card h3 {
-    flex: initial;
     height: 50px;
   }
 
-  #program .program-card p {
-    flex: auto;
+  #program .program-link {
+    align-self: center;
+    margin: 45px 0;
+    color: #dedede;
+    text-underline-offset: 2px;
+  }
+
+  #program .program-link:hover {
+    color: #fff;
+  }
+
+  #speakers {
+    padding-bottom: 120px;
   }
 
   #speakers > div {
