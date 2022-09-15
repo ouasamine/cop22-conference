@@ -287,15 +287,15 @@ footer img {
     background: #2c2c2c;
     padding: 10px 9%;
   }
-  
+
   #topbar ul li {
     margin: 0 15px;
   }
-  
+
   #topbar ul li a {
     color: #f4f4f4;
     text-decoration: none;
-  }  
+  }
 
   #topbar ul li a:hover {
     color: #dedede;
