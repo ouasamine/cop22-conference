@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: url("../img/menara.jpeg") no-repeat;
+  background: url("../img/menara.jpeg") no-repeat fixed;
   background-size: 100% auto;
 }
 
@@ -264,6 +264,7 @@ footer {
   padding: 40px 40px;
   color: #434342;
   font-style: italic;
+  background: #fff;
 }
 
 footer img {
