@@ -1,4 +1,4 @@
-const speakers = [ {
+const speakers = [{
   name: 'H.E. Dr. Hakima El Haite',
   position: 'Minister Delegate in Charge of Environment of the Minister of Energy, Mining, Water and Environment of Morocco',
   desc: 'PHD in Environmental Engineering from the Scool of Mines of Saint Etienne and a Degree in political communication, University of Washington.',
@@ -10,7 +10,7 @@ const speakers = [ {
   desc: "Master's degree at the International Institute for Aerospace Survey and Earth Sciences, Netherlands and Ph.D. from the Bogor Institute of Agriculture.",
   img: './img/siti-nurbaya-900x600.jpg',
 },
- {
+{
   name: 'Erik Solheim',
   position: 'Executive Director of United Nations Environment Programme-UNEP',
   desc: 'Graduated from the University of Oslo in 1980 with a cand.mag. degree after studying history, sociology and political science.',

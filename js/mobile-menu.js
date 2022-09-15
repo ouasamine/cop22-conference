@@ -12,9 +12,8 @@ mobileLnk.forEach((link) => {
   });
 });
 const path = window.location.pathname;
-const page = path.split("/").pop();
+const page = path.split('/').pop();
 const link = document.querySelector("#navbar > ul a[href='./about.html']");
-console.log(link.innerHTML);
-if(page === "about.html"){
-  link.style.color = "#ef5f4f";
+if (page === 'about.html') {
+  link.style.color = '#ef5f4f';
 }
