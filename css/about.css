@@ -1,0 +1,111 @@
+/* stylelint-disable no-descending-specificity */
+#headline {
+  align-items: center;
+  text-align: center;
+}
+
+#headline h1 {
+  margin-top: 20px;
+  color: #ec5242;
+  background: none;
+}
+
+#headline .about {
+  background: #fff;
+  border: 2px solid #cecece;
+  text-align: center;
+  padding: 25px;
+}
+
+#headline .join-us {
+  text-align: center;
+}
+
+#logo-display,
+#recent-cops {
+  background: #fff;
+  color: #0f0f0f;
+}
+
+#logo-display > p {
+  text-align: center;
+  margin: 20px 0 80px 0;
+}
+
+#logo-display > img {
+  border: 2px solid #cecece;
+  padding: 10px;
+  max-height: 500px;
+  max-width: 300px;
+}
+
+#recent-cops > p {
+  margin: 20px 0 80px 0;
+  text-align: center;
+}
+
+#recent-cops > .container > a {
+  display: block;
+  max-width: 400px;
+  max-height: 250px;
+}
+
+.recent-cop {
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.recent-cop img {
+  height: 100%;
+  width: 100%;
+}
+
+.recent-cop h2 {
+  color: #fff;
+  margin: 10px 0;
+}
+
+.recent-cop > div {
+  height: 100%;
+  width: 100%;
+  background: #ec524290;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.recent-cop > div > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  #headline h1 {
+    font-size: 3rem;
+  }
+
+  #headline p {
+    max-width: 1000px;
+  }
+
+  #recent-cops {
+    padding-bottom: 120px;
+  }
+
+  #recent-cops > .container {
+    display: flex;
+  }
+
+  #recent-cops .recent-cop {
+    margin: 0 15px;
+  }
+
+  footer {
+    background: #272a31;
+    color: #dedede;
+  }
+}
