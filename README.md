@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author**
+👤 **Amine**
 
 - GitHub: [@ouasamine](https://github.com/ouasamine)
 - Twitter: [@ouass_amine](https://twitter.com/ouass_amine)
