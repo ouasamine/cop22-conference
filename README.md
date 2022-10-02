@@ -27,14 +27,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-  - To clone and run this project on your local machine please follow the commands (Windows Command Line):
-  ```
-  cd PATH 
-  git clone _https://github.com/ouasamine/cop22-conference.git
-  cd cop22-conference
-  index.html 
-  ```
-  _(instead of PATH put yor preferred directory where the repository files will download)_
+  To clone and run this project on your machine please follow the instructions: 
+
+1. Download the project files as a ZIP file using the `code` button in the github repository interface.
+
+2. Extract the project folder from the ZIP file.
+
+3. Browse to the project folder and open the `index.html` file.
 
 
 ## Authors
